@@ -26,6 +26,8 @@
     position: relative;
     display: flex;
     align-items: center;
+    transition: 2s;
+
 }
 
 
@@ -53,11 +55,14 @@
     flex-direction: column;
     position: relative;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-    transition-delay: 2s;
+    transition: 2s;
+    
 }
 
 .textContainer>p {
     color: var(--primary-Color);
+    transition: 2s;
+
 }
 
 .cardTextButton {
