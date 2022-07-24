@@ -91,3 +91,22 @@ p{
     justify-content: center;
     align-items: center;
 }
+
+.quote{
+    font-size: 25px;
+}
+
+@media ( max-width: 600px) {
+    .fullContainer{
+        /* border: darkblue dashed; */
+        height: 300px;
+        width: 350px;
+        transition: 2s;
+    }
+
+    .cardContainer, .textContainer{
+        width: 326px;
+        /* border: darkblue dashed 1px; */
+        transition: 2s;
+    }
+}
