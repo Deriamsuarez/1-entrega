@@ -1,0 +1,93 @@
+:root {
+    --primary-Color: #028090;
+    --card-Color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    /* background-color: var(--primary-Color); */
+}
+
+.fullContainer {
+    width: 526px;
+    height: 200px;
+    /* border: 1px dashed black; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.textContainer {
+    width: 470px;
+    height: 100%;
+
+    /* border: black dashed 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 1em;
+
+}
+
+.cardContainer {
+    width: 500px;
+    height: auto;
+    background-color: var(--card-Color);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    transition-delay: 2s;
+}
+
+.textContainer>p {
+    color: var(--primary-Color);
+}
+
+.cardTextButton {
+    display: flex;
+    width: 50px;
+    right: 0em;
+    border-radius: 100%;
+    position: absolute;
+    color: var(--card-Color);
+    background-color: var(--primary-Color);
+    font-weight: 600;
+    z-index: 600;
+    border: 3px white solid;
+    padding: 10px;
+}
+
+svg {
+    fill: var(--card-Color);
+}
+
+p{
+    margin: 0px 20px;
+}
+
+.megaContainer{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
