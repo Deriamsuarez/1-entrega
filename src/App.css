@@ -43,6 +43,7 @@
     align-items: center;
     padding: 2em;
     gap: 1em;
+    transition: 2s;
 
 }
 
@@ -61,7 +62,7 @@
 
 .textContainer>p {
     color: var(--primary-Color);
-    transition: 2s;
+    
 
 }
 
